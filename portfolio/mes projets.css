@@ -1,0 +1,403 @@
+body{
+    background-color: black;
+    font-family: 'inter', sans-serif;
+}
+.YASSINE{
+    color: #c99d37;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(4%,60%);
+    filter: opacity(90%);
+}
+.imges2{
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 1px;
+    display: flex;
+}
+.n1 a{
+    filter: brightness(95%);
+    opacity: 95%;
+    width: 40px;
+    height: 40px;
+}
+.n1:hover a{
+    filter: brightness(100%);
+    opacity: 100%;
+    color: #e0a942;
+    
+}
+.n2 a{
+    filter: brightness(95%);
+    opacity: 95%;
+    width: 40px;
+    height: 40px;
+}
+.n2:hover a{
+    filter: brightness(100%);
+    opacity: 100%;
+    color: #e0a942;
+}
+.n3 a{
+    filter: brightness(95%);
+    opacity: 95%;
+    width: 40px;
+    height: 40px;
+}
+.n3:hover a{
+    filter: brightness(100%);
+    opacity: 100%;
+    color: #e0a942;
+}
+.nav{
+    color: azure;
+    margin-left: 35%;
+    margin-top: 1%;
+    display: flex;
+    width: 30%;
+    list-style: none;
+    align-items: center;
+    position: absolute;
+    font-weight:bolder ;
+    justify-content: space-between;
+}
+.nav li a{
+    text-decoration: none;
+    color: azure;
+}
+.i1 a{
+    filter: brightness(70%);
+}
+.i1:hover a{
+    filter: brightness(100%);
+}
+.mini1 {
+    aspect-ratio: 1/1;
+    height: auto;
+    margin-TOP: 300PX;
+    position: relative;
+}
+.mini1 img{
+    height: 370px;
+    width: 370px;
+    object-fit: cover;
+    filter: brightness(40%);
+    transition: .4s ease;
+}
+.im{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 15PX;
+    margin-left:15px;
+    font-size: 1,5rem;
+    color: #fcce64;
+    color:rgb(216, 222, 222) ;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.im1{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 15PX;
+    margin-left:15px;
+    color:rgb(216, 222, 222) ;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    
+}
+.im2{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 15PX;
+    margin-left:15px;
+    font-size: 1,5rem;
+
+    color:rgb(216, 222, 222) ;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.im3{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 15PX;
+    margin-left:15px;
+    color:rgb(216, 222, 222) ;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.im4{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 15PX;
+    margin-left:15px;
+    font-size: 1,5rem;
+    color: #fcce64;
+    color:rgb(216, 222, 222) ;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.im5{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 15PX;
+    margin-left:15px;
+    color:rgb(216, 222, 222) ;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*le bloc de code suivant est pour l'animation de brightness*/
+
+.p1:hover img{
+    filter: brightness(80%);
+}
+.p2:hover img{
+    filter: brightness(80%);
+}
+.p3:hover img{
+    filter: brightness(80%);
+}
+.p4:hover img{
+    filter: brightness(80%);
+}
+.p5:hover img{
+    filter: brightness(80%);
+}
+.p6:hover img{
+    filter: brightness(80%);
+}
+.p7:hover img{
+    filter: brightness(80%);
+}
+.p8:hover img{
+    filter: brightness(80%);
+}
+.p9:hover img{
+    filter: brightness(80%);
+}
+.p10:hover img{
+    filter: brightness(80%);
+}
+.p11:hover img{
+    filter: brightness(80%);
+}
+.p12:hover img{
+    filter: brightness(80%);
+}
+.p13:hover img{
+    filter: brightness(80%);
+}
+.p14:hover img{
+    filter: brightness(80%);
+}
+.p15:hover img{
+    filter: brightness(80%);
+}
+.p16:hover img{
+    filter: brightness(80%);
+}
+.p17:hover img{
+    filter: brightness(80%);
+}
+.p18:hover img{
+    filter: brightness(80%);
+}
+/*le bloc de code suivant est pour que le titre soit centré dans l'affiche*/
+.p1 h3{
+    transform: translate(-50%,-350%);
+    top: 15%;
+    left: 21%;
+    position: absolute;
+    width: 30%
+}
+.p2 h3{
+    transform: translate(-50%,-350%);
+    top: 15%;
+    left: 51%;
+    position: absolute;
+    width: 20%
+}
+.p3 h3{
+    transform: translate(-40%,-350%);
+    top: 15%;
+    left: 85%;
+    position: absolute;
+    width: 25%
+}
+.p4 h3{
+    transform: translate(-50%,-350%);
+
+    left: 17%;
+    position: absolute;
+    width: 20%
+
+}
+.p5 h3{
+    transform: translate(-50%,-650%);
+
+    left: 54%;
+    position: absolute;
+    width: 20%
+}
+.p6 h3{
+    transform: translate(-50%,-230%);
+
+    left: 85%;
+    position: absolute;
+    width: 25%
+}
+.p7 h3{
+    position: relative;
+    transform: translate(15%,-650%);
+    top: 15%;
+    width: 70%
+}
+.p8 h3{
+    position: relative;
+    transform: translate(2%,-730%);
+    top: 15%;
+    width: 10%
+    align-content: center;
+    text-align: center;
+}
+.p9 h3{
+    position: relative;
+    transform: translate(15%,-650%);
+    top: 15%;
+    width: 70%
+}
+.p10 h3{
+    position: relative;
+    transform: translate(15%,-750%);
+    top: 15%;
+    width: 70%
+}
+.p11 h3{
+    position: relative;
+    transform: translate(4%,-350%);
+    top: 15%;
+    width: 80%
+    align-content: center;
+    text-align: center;
+}
+.p12 h3{
+    position: relative;
+    transform: translate(4%,-730%);
+    top: 15%;
+    width: 80%
+}
+.p13 h3{
+    position: relative;
+    transform: translate(20%,-730%);
+    top: 15%;
+    width: 80%
+
+}
+.p14 h3{
+    position: relative;
+    transform: translate(2%,-730%);
+    top: 15%;
+    width: 10%
+    align-content: center;
+    text-align: center;
+}
+.p15 h3{
+    position: relative;
+    transform: translate(2%,-730%);
+    top: 15%;
+    width: 10%
+    align-content: center;
+    text-align: center;
+}
+.p16 h3{
+    position: relative;
+    transform: translate(2%,-730%);
+    top: 15%;
+    width: 10%
+    align-content: center;
+    text-align: center;
+
+}
+.p17 h3{
+    position: relative;
+    transform: translate(2%,-730%);
+    top: 15%;
+    width: 10%
+    align-content: center;
+    text-align: center;
+    
+}
+.p18 h3{
+    position: relative;
+    transform: translate(2%,-730%);
+    top: 15%;
+    width: 10%
+    align-content: center;
+    text-align: center;
+}
+.text2{
+
+
+    position: absolute;
+    margin-top: 18%;
+    font-size: 20px;
+
+}
+.text3{
+    background-color:#c99d37; 
+    color: black;
+    width: 1150px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 50px;
+}
+footer{
+    color: azure;
+    align-content: center;
+    margin-left: 35%;
+    font-size: large;
+    display: inline;
+
+}
+.imges{
+    display: flex;
+    margin-left: 15px;
+    position: absolute;
+    display: flex;
+    
+}
+.imges1{
+    margin-left: 680%;
+    display: inline;
+    color: azure;
+
+}
+.inside h4{
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 1.5px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: x-bold;
+}
+.dernier{
+    display: flex;
+    margin-left: 700px;
+}
+
+.contact img{
+    position: absolute;
+    transform: translate(295%,-130%);
+    filter: brightness(70%);
+}
+.contact:hover img{
+    filter: brightness(100%);
+}
+
