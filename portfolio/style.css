@@ -1,10 +1,31 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 1280px;
 }
+.voir{
+    filter: brightness(80%);
+}
+.voir:hover{
+    filter: brightness(100%);
+}
+.bloc h2{
+    transform: translate(0%,-10%);
+}
+.cl{
+    background:url(logo/p2.png) ;
+    
+}
+.cadre{
+    position: absolute;
+    transform: translate(0%,-21%);
+    max-width: 1280px;
+}
+
 body{
     font-family: 'inter', sans-serif;
     background-color: black;
+    max-width: 1280px;
 }
 header{
     background: url(pn.png);/*pour que cette image devient notre backround de partie header*/
@@ -22,6 +43,10 @@ header{
     display: flex;
     max-width: 1280px;
     margin-inline: auto;
+    
+
+    
+
 }
 .text{
     color: #FFB606;
@@ -55,8 +80,7 @@ header{
     display: flex;
     padding: 15px;
     margin-left: 20px;
-    margin-right: 5px;
-    gap: 200px;
+    gap: 150px;
     align-items: center;
 }
 .te{
@@ -65,15 +89,22 @@ header{
 }
 .cl1{
     align-items: center;
-    width: 40vh;
+    width: 45vh;
 }
 .cl2{
     align-items: center;
-    width: 40vh;
+    width: 45vh;
 }
 .cl3{
     align-items: center;
-    width: 40vh;
+    width: 45vh;
+}
+.cl3 h2{
+    width: 100vh;
+}
+.cl1 h2{
+    width: 100vh;
+    margin-top: 10%;
 }
 .pt{
     background: url(pt1.png);/*pour que cette image devient notre backround de partie header*/
@@ -152,7 +183,7 @@ h2{
     font-size: x-larger;
     align-items: center;
     margin-bottom: 1%;
-    background-color: #B28228;
+    background-color: #ce9426;
     height: 10px;
     width: 100%;
     text-align: center;
